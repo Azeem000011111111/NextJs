@@ -9,6 +9,7 @@ The App Router also provides a set of conventions to help you implement more adv
 
 <h1>Linking and Navigating</h1>
 There are two ways to navigate between routes in Next.js:
-
-*Using the <Link> Component
-*Using the useRouter Hook
+<ul>
+<li>Using the <Link> Component</li>
+<li>Using the useRouter Hook<li>
+</ul>
