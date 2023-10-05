@@ -1,4 +1,5 @@
-<h1>Advanced Routing Patterns</h1>
+<h1 style={color:red}>Defining Routes</h1>
+<h2>Advanced Routing Patterns</h2>
 The App Router also provides a set of conventions to help you implement more advanced routing patterns. These include:
 
 <h2>Parallel Routes:</h2> Allow you to simultaneously show two or more pages in the same view that can be navigated independently. You can use them for split views that have their own sub-navigation. E.g. Dashboards.
