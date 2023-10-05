@@ -15,7 +15,7 @@ For example, to create your first page, add a page.js file inside the app direct
 (app/page.tsx)
 
 export default function Page() {
-  return <h1><h1>Hello, Next.js!</h1></h1>
+  return <h1>Hello, Next.js!<h1>
 }
 
 
