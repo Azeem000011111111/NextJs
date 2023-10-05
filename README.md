@@ -7,16 +7,8 @@ The App Router also provides a set of conventions to help you implement more adv
 <h2>Intercepting Routes:</h2> Allow you to intercept a route and show it in the context of another route. You can use these when keeping the context for the current page is important. E.g. Seeing all tasks while editing one task or expanding a photo in a feed.
 
 
-Creating UI
-Special file conventions are used to create UI for each route segment. The most common are pages to show UI unique to a route, and layouts to show UI that is shared across multiple routes.
-For example, to create your first page, add a page.js file inside the app directory and export a React component:
+<h1>Linking and Navigating</h1>
+There are two ways to navigate between routes in Next.js:
 
-
-(app/page.tsx)
-
-export default function Page() {
-  return <h1>Hello, Next.js!<h1>
-}
-
-
-
+*Using the <Link> Component
+*Using the useRouter Hook
